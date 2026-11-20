@@ -20,7 +20,7 @@ export default async function() {
 
   } else  {
       store.api.piped = ['https://pipedapi.wireway.ch'];
-      store.api.invidious = ['https://yt.omada.cafe', 'https://echostreamz.com', 'https://yt.chocolatemoo53.com'];
+      store.api.invidious = ['https://yt.omada.cafe', 'https://yt.chocolatemoo53.com', 'https://eu.yt.chocolatemoo53.com'];
       store.api.hyperpipe = 'https://hyperpipeapi.onrender.com';
       store.player.hls.api = [''];
       store.player.usePiped = false
