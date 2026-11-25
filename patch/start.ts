@@ -19,8 +19,8 @@ export default async function() {
     store.player.usePiped = !useInvidious;
 
   } else  {
-      store.api.piped = ['https://pipedapi.wireway.ch'];
-      store.api.invidious = ['https://yt.omada.cafe', 'https://yt.chocolatemoo53.com', 'https://eu.yt.chocolatemoo53.com'];
+      store.api.piped = ['https://api.piped.private.coffee'];
+      store.api.invidious = ['https://yt.chocolatemoo53.com', 'https://eu.yt.chocolatemoo53.com', 'https://yt.omada.cafe'];
       store.api.hyperpipe = 'https://hyperpipeapi.onrender.com';
       store.player.hls.api = [''];
       store.player.usePiped = false
